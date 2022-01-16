@@ -2,13 +2,15 @@
 /* https://manten-do.net/contents/dsk01 */
 
 /* 選択したユーザ以外の画像を非表示にする */
-li.voice-state:not([data-reactid*="DiscordユーザID"]) { display:none; }
+/* li.voice-state:not([data-reactid*="DiscordユーザID"]) { display:none; } */
 
 /* アイコンを立ち絵画像に差し替える */
-.avatar {
+/* .avatar {
   content:url("画像URL");
   height:auto !important;
-  width:95% !important;
+} */
+.avatar {
+  width:100% !important;
   border-radius:0 !important;
   filter: brightness(50%);
 }
@@ -16,13 +18,13 @@ li.voice-state:not([data-reactid*="DiscordユーザID"]) { display:none; }
 /* 発話状態の設定 */
 .speaking {
   border-color:rgba(0,0,0,0) !important;
-  filter: brightness(100%) drop-shadow(0 0 5px rgba(0,255,0,1));
+  filter: brightness(100%) ;
 }
 
 
 /* ネームタグ表示位置調整 */
 li.voice-state{ position: static; text-align: center;}
-div.user{ position: absolute; right: 0; left: 0; bottom: 10px; margin: auto; }
+div.user{ display: none; }
 
 /* 色々消すヤツ */
 body { background-color: rgba(0, 0, 0, 0); overflow: hidden; }
