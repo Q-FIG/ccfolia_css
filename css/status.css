@@ -1,0 +1,85 @@
+/* OBS */
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/* カットイン */
+.sc-tAExr,
+/* 背景 */
+.sc-ZOtfp,
+/* 盤面 */
+.sc-bGaVxB,
+/* チャット */
+.sc-khQegj>.MuiPaper-root,
+/* 吹き出し */
+.sc-edERGn,
+/* モーダル削除 */
+[role="presentation"],
+/* ヘッダー削除 */
+header>.MuiToolbar-gutters,
+/* 音量 */
+.sc-kYHfwS,
+/* 拡大縮小 */
+.sc-cVAmsi,
+/* 鉛筆ボタン */
+.sc-dkQkyq,
+/* 監視モード */
+.MuiSnackbar-root,
+/* スクロールバー */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/**************************
+　ステータス
+**************************/
+/* 上下の調整 */
+.sc-jKTccl {
+  top: 0;
+  padding: 0;
+}
+
+/* キャラアイコンを削除 */
+.MuiBadge-root {
+  display: none;
+}
+
+/* 全て非表示にする */
+.sc-fIosxK {
+  display: none;
+}
+
+/* サイズ調整 */
+.MuiTypography-body2 {
+  font-size: 2rem;
+}
+
+.sc-fIosxK>div>div>div,
+.sc-fIosxK>div>div>div>div:nth-child(2)>div {
+  height: 48px;
+}
+
+.sc-fIosxK>div>div>div {
+  width: 185px;
+}
+
+.MuiTypography-body2 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+/* 特定のキャラだけ表示（1からスタート） */
+/*
+.sc-fIosxK:nth-child(1) {
+  display: flex;
+}
+*/
+/* 横並び（200の倍数） */
+/*
+.sc-iFMAIt {
+  max-width: 400px;
+}
+*/
