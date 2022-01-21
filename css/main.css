@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background-color: rgb(0, 0, 0);
   --background-padding: 8px 8px 8px 8px;
   --border-color: rgb(255, 255, 255);
@@ -17,7 +17,7 @@
   --image-radius: 0%;
   --width: 500px;
   --line-clamp: 30;
-}
+} */
 
 /**************************
 　表示用CSS
@@ -71,7 +71,7 @@ header>.MuiToolbar-gutters,
 /**************************
 　デザイン
 **************************/
-.sc-khQegj>.MuiPaper-root {
+/* .sc-khQegj>.MuiPaper-root {
   width: 100%;
 }
 
@@ -161,4 +161,4 @@ p.MuiTypography-root {
 .MuiTypography-caption {
   color: var(--font-color);
   text-shadow: var(--font-color-shadow);
-}
+} */
