@@ -42,14 +42,14 @@ header>.MuiToolbar-gutters,
 }
 
 /* キャラアイコンを削除 */
-/* .MuiBadge-root {
+.MuiBadge-root {
   display: none;
-} */
+}
 
 /* 全て非表示にする */
-/* .sc-fIosxK {
+.sc-fIosxK {
   display: none;
-} */
+}
 
 /* サイズ調整 */
 .MuiTypography-body2 {
