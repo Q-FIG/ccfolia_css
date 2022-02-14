@@ -9,8 +9,11 @@
   content:url("画像URL");
   height:auto !important;
 } */
+
+/* アイコンを立ち絵画像に差し替える */
 .avatar {
-  width:100% !important;
+  height: auto !important;
+  width: 100% !important;
   border-radius:0 !important;
   filter: brightness(50%);
 }
@@ -23,8 +26,20 @@
 
 
 /* ネームタグ表示位置調整 */
-li.voice-state{ position: static; text-align: center;}
-div.user{ display: none; }
+li.voice-state{
+  position: static;
+  text-align: center;
+}
+div.user{ 
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+  margin: auto;
+}
+.user .name {
+  font-size: 20px !important;
+}
 
 /* 色々消すヤツ */
 body { background-color: rgba(0, 0, 0, 0); overflow: hidden; }
