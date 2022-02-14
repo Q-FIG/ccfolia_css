@@ -10,8 +10,17 @@
   height:auto !important;
 } */
 
+/* importする場合 */
+/* @import url("https://q-fig.github.io/ccfolia_css/css/discord_talkimg.css"); */
+
+
+
+/* 選択したユーザ以外の画像を非表示にする */
+/* li.voice-state:not([data-reactid*="453059299753852938"]) { display:none; } */
+
 /* アイコンを立ち絵画像に差し替える */
 .avatar {
+  /* content:url("https://cdn.discordapp.com/attachments/932148918542794802/932149043302383686/4da8361c964bfce6.png"); */
   height: auto !important;
   width: 100% !important;
   border-radius:0 !important;
