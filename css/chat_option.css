@@ -1,4 +1,14 @@
-.sc-cNKqjZ>div:nth-child(1)>div>div {
+@import url("https://q-fig.github.io/ccfolia_css/css/main.css");
+
+.MuiToolbar-root {
+  display: none;
+}
+
+.MuiPaper-root {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.MuiList-root>div:nth-child(1)>div>div>div {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -6,17 +16,26 @@
 
 .MuiListItem-gutters {
   animation-name: fadeRightToLeft;
-  animation-duration: 2s;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  background-color: rgba(44, 44, 44, 0.87) !important;
 }
 
 @keyframes fadeRightToLeft {
-  from {
+  0% {
     opacity: 0;
     transform: translateX(150px);
   }
-
-  to {
+  10% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0px);
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(150px);
   }
 }
