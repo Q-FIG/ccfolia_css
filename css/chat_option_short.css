@@ -1,0 +1,22 @@
+.MuiToolbar-root {
+  display: none;
+}
+
+.MuiPaper-root {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.MuiList-root>div:nth-child(1)>div>div>div {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.MuiListItem-root {
+  background-color: rgba(44, 44, 44) !important;
+}
+
+.MuiList-root {
+  display: flex;
+  background-color: rgba(44, 44, 44) !important;
+}
