@@ -17,6 +17,7 @@
 }
 
 .MuiList-root {
+  border-radius: 20px;
   display: flex;
   background-color: rgba(44, 44, 44) !important;
 }
