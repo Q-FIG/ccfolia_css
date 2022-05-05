@@ -38,7 +38,7 @@ header>.MuiToolbar-gutters,
 /* 上下の調整 */
 .sc-jKTccl {
   top: 0;
-  padding: 0;
+  padding: 1;
 }
 
 /* キャラアイコンを削除 */
@@ -53,16 +53,16 @@ header>.MuiToolbar-gutters,
 
 /* サイズ調整 */
 .MuiTypography-body2 {
-  font-size: 2rem;
+  font-size: 18px;
 }
 
 .sc-fIosxK>div>div>div,
 .sc-fIosxK>div>div>div>div:nth-child(2)>div {
-  height: 48px;
+  height: 28px;
 }
 
 .sc-fIosxK>div>div>div {
-  width: 185px;
+  width: 155px;
 }
 
 .MuiTypography-body2 {
@@ -71,15 +71,14 @@ header>.MuiToolbar-gutters,
   padding: 10px;
 }
 
+/* 横並び（200の倍数） */
+.sc-iFMAIt {
+  max-width: 400px;
+}
+
 /* 特定のキャラだけ表示（1からスタート） */
 /*
 .sc-fIosxK:nth-child(1) {
   display: flex;
-}
-*/
-/* 横並び（200の倍数） */
-/*
-.sc-iFMAIt {
-  max-width: 400px;
 }
 */
