@@ -62,7 +62,7 @@ header>.MuiToolbar-gutters,
 }
 
 .sc-fIosxK>div>div>div {
-  width: 125px;
+  width: 155px;
 }
 
 .MuiTypography-body2 {
@@ -73,7 +73,7 @@ header>.MuiToolbar-gutters,
 
 /* 横並び（200の倍数） */
 .sc-iFMAIt {
-  max-width: 300px;
+  max-width: 200px;
 }
 
 /* 特定のキャラだけ表示（1からスタート） */
