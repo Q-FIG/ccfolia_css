@@ -1,0 +1,7 @@
+/* キャラだけ見えるようにする */
+.hcTYPf, .sc-ZOtfp, .sc-eJwWfJ, .MuiTypography-root, .sc-tAExr {
+  display: none !important;
+}
+figure, .sc-hiwPVj{
+  display: flex !important;
+}
