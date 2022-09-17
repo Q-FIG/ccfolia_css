@@ -1,3 +1,5 @@
+/* 右からスライド、タブが見える */
+
 .MuiPaper-root {
   background-color: rgba(0,0,0,0) !important;
 }
@@ -9,16 +11,16 @@
 }
 
 .MuiListItem-root {
-  animation-name: fadeLeftToRight;
+  animation-name: fadeRightToLeft;
   animation-duration: 5s;
   animation-fill-mode: forwards;
   background-color: rgba(44, 44, 44, 0.87) !important;
 }
 
-@keyframes fadeLeftToRight {
+@keyframes fadeRightToLeft {
   0% {
     opacity: 0;
-    transform: translateX(-150px);
+    transform: translateX(150px);
   }
   10% {
     opacity: 1;
@@ -30,6 +32,6 @@
   }
   100% {
     opacity: 0;
-    transform: translateX(-150px);
+    transform: translateX(150px);
   }
 }

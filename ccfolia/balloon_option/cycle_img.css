@@ -1,0 +1,15 @@
+/* アイコン */
+.MuiPaper-root>img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  background: #F6F7F8;
+  border: solid 6px #302833;
+  object-fit: cover;
+  object-position: top;
+}
+
+.MuiPaper-root>img[src=""] {
+  display: none;
+}

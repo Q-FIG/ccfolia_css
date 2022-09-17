@@ -1,0 +1,34 @@
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+/* キャラ */
+.sc-jKTccl,
+/* チャット */
+.sc-khQegj>.MuiPaper-root,
+/* 吹き出し */
+.sc-edERGn,
+/* モーダル削除 */
+[role="presentation"],
+/* ヘッダー削除 */
+header>.MuiToolbar-gutters,
+/* 音量 */
+.sc-kYHfwS,
+/* 拡大縮小 */
+.sc-cVAmsi,
+/* 鉛筆ボタン */
+.sc-dkQkyq,
+/* 監視モード */
+.MuiSnackbar-root,
+.sc-eJwWfJ,
+.sc-faUpoM,
+.sc-tAExr,
+/* スクロールバー */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+.hcTYPf, .sc-ZOtfp{
+  display:flex !important;
+}

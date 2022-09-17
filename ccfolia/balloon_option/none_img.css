@@ -1,0 +1,8 @@
+/* アイコンなし */
+.MuiPaper-root>img {
+  display: none;
+}
+
+.MuiPaper-root>img[src=""] {
+  display: none;
+}

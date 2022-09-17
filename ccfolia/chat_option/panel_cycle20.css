@@ -1,3 +1,5 @@
+/* チャットの枠の角を丸くする */
+
 .MuiToolbar-root {
   display: none;
 }

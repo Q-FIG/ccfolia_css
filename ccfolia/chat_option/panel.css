@@ -1,3 +1,5 @@
+/* チャット文字のみが見える */
+
 .MuiToolbar-root {
   display: none;
 }

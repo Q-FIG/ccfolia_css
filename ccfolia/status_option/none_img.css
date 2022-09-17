@@ -1,4 +1,4 @@
 /* キャラ駒を見えないようにする */
 .MuiBadge-root {
-  display: none !important;
+  display: none;
 }
