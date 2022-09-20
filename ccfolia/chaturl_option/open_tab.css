@@ -1,0 +1,17 @@
+/* タブを表示する */
+
+/* タブ周辺 */
+.MuiPaper-root > .sc-hUpaCq > .MuiPaper-root {
+  display: flex !important;
+}
+
+/* タブ以下 */
+.MuiPaper-root > .sc-hUpaCq > .MuiPaper-root > form > div,
+.MuiPaper-root > .sc-hUpaCq > .MuiPaper-root > form > hr {
+  display: none !important;
+}
+
+/* タブ */
+.MuiPaper-root > .sc-hUpaCq > .MuiPaper-root > form > header {
+  display: flex !important;
+}

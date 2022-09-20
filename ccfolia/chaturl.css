@@ -1,0 +1,23 @@
+/* urlが「～/chat」の時使用 */
+
+/* OBS */
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/* トップ */
+.MuiPaper-root > .MuiPaper-root,
+/* タブ以下 */
+.MuiPaper-root > .sc-hUpaCq > .MuiPaper-root {
+  display: none !important;
+}
+
+.MuiDrawer-root > .MuiDrawer-paper {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.MuiList-root>div:nth-child(1)>div>div>div {
+  background-color: rgba(44, 44, 44, 0.87);
+}
