@@ -18,6 +18,6 @@ body {
   background-color: rgba(0,0,0,0) !important;
 }
 
-.MuiList-root>div:nth-child(1)>div>div>div {
+.MuiListItem-root {
   background-color: rgba(44, 44, 44, 0.87);
 }
