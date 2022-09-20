@@ -7,8 +7,36 @@ body {
   overflow: hidden;
 }
 
-/* トップ */
-.MuiPaper-root > .MuiPaper-root,
+/* カットイン */
+.sc-tAExr,
+/* 背景 */
+.sc-ZOtfp,
+/* 盤面 */
+.sc-bGaVxB,
+/* キャラ */
+.sc-jKTccl,
+/* 吹き出し */
+.sc-edERGn,
+/* 名前 */
+.sc-caiLqq,
+/* 入力欄 */
+.sc-iUKqMP,
+/*バージョン表記*/
+.jss10,
+/* モーダル削除 */
+[role="presentation"],
+/* ヘッダー削除 */
+header>.MuiToolbar-gutters,
+/* 音量 */
+.sc-kYHfwS,
+/* 拡大縮小 */
+.sc-cVAmsi,
+/* 鉛筆ボタン */
+.sc-dkQkyq,
+/* 監視モード */
+.MuiSnackbar-root,
+/* スクロールバー */
+::-webkit-scrollbar,
 /* タブ以下 */
 .MuiPaper-root > .sc-hUpaCq > .MuiPaper-root {
   display: none !important;
