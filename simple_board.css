@@ -1,4 +1,3 @@
-/* OBS */
 body {
   background-color: rgba(0, 0, 0, 0);
   margin: 0px auto;
@@ -9,8 +8,6 @@ body {
 .sc-jfmDQi,
 /* チャット */
 .sc-bBXxYQ>.MuiPaper-root,
-/* 吹き出し */
-.sc-djUGQo,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
@@ -24,13 +21,6 @@ header>.MuiToolbar-gutters,
 /* 監視モード */
 .MuiSnackbar-root,
 /* スクロールバー */
-::-webkit-scrollbar,
-/* キャラだけ見えるようにする */
-.hcTYPf, .sc-ZOtfp, .sc-eJwWfJ, .MuiTypography-root, .sc-gJwTLC {
+::-webkit-scrollbar {
   display: none !important;
-}
-
-/* キャラを見えるようにする */
-figure, .sc-hiwPVj{
-  display: flex !important;
 }

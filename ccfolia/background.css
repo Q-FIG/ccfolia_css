@@ -4,26 +4,26 @@ body {
   overflow: hidden;
 }
 /* キャラ */
-.sc-jKTccl,
+.sc-jfmDQi,
 /* チャット */
-.sc-khQegj>.MuiPaper-root,
+.sc-bBXxYQ>.MuiPaper-root,
 /* 吹き出し */
-.sc-edERGn,
+.sc-djUGQo,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
 header>.MuiToolbar-gutters,
 /* 音量 */
-.sc-kYHfwS,
+.sc-ikjQzJ,
 /* 拡大縮小 */
-.sc-cVAmsi,
+.sc-hZgfyJ,
 /* 鉛筆ボタン */
-.sc-dkQkyq,
+.sc-dSuTWQ,
 /* 監視モード */
 .MuiSnackbar-root,
 .sc-eJwWfJ,
 .sc-faUpoM,
-.sc-tAExr,
+.sc-gJwTLC,
 /* スクロールバー */
 ::-webkit-scrollbar {
   display: none !important;
