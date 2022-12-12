@@ -5,12 +5,14 @@ body {
   overflow: hidden;
 }
 
+/* ステータスイメージ */
+.sc-caXVBt,
 /* カットイン */
 .sc-gJwTLC,
 /* 背景 */
-.sc-ZOtfp,
+.sc-TRNrF,
 /* 盤面 */
-.sc-bGaVxB,
+.sc-lbOyJj,
 /* チャット */
 .sc-bBXxYQ>.MuiPaper-root,
 /* 吹き出し */
@@ -36,13 +38,13 @@ header>.MuiToolbar-gutters,
 　ステータス
 **************************/
 /* 上下の調整 */
-.sc-jfmDQi {
+.sc-fHsOPI {
   top: 0;
   padding: 1;
 }
 
 /* 全て非表示にする */
-.sc-fIosxK {
+.sc-hsOonA {
   display: none;
 }
 
@@ -51,12 +53,12 @@ header>.MuiToolbar-gutters,
   font-size: 18px;
 }
 
-.sc-fIosxK>div>div>div,
-.sc-fIosxK>div>div>div>div:nth-child(2)>div {
+.sc-hsOonA>div>div>div,
+.sc-hsOonA>div>div>div>div:nth-child(2)>div {
   height: 28px;
 }
 
-.sc-fIosxK>div>div>div {
+.sc-hsOonA>div>div>div {
   width: 155px;
 }
 
@@ -67,13 +69,12 @@ header>.MuiToolbar-gutters,
 }
 
 /* 横並び（200の倍数） */
-.sc-iFMAIt {
-  max-width: 200px;
+.sc-fHsOPI {
+  max-width: 400px;
 }
 
 /* 特定のキャラだけ表示（1からスタート） */
-/*
-.sc-fIosxK:nth-child(1) {
+
+.sc-hsOonA:nth-child(1) {
   display: flex;
 }
-*/
