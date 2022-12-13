@@ -8,22 +8,12 @@ body {
   overflow: hidden;
 }
 
-/* カットイン */
-.sc-gJwTLC,
-/* 背景 */
-.sc-ZOtfp,
-/* 盤面 */
-.sc-bGaVxB,
-/* キャラ */
-.sc-jfmDQi,
-/* 吹き出し */
-.sc-djUGQo,
-/* 名前 */
-.sc-caiLqq,
-/* 入力欄 */
-.sc-jdAMXn,
-/*バージョン表記*/
-.jss10,
+/* ゲーム画面 */
+.sc-kgUAyh,
+/* chat.ヘッダ */
+.MuiAppBar-root,
+/* chat.操作部分 */
+.sc-iTONeN,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
