@@ -31,3 +31,8 @@ header>.MuiToolbar-gutters,
 ::-webkit-scrollbar {
   display: none !important;
 }
+
+/* 幅調整 */
+.sc-kgUAyh{
+  right: 0px !important;
+}
