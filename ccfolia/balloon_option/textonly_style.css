@@ -1,0 +1,21 @@
+/* 吹き出し */
+.hqkidh{
+  max-width: 1920px;
+  right: 16px;
+  left: 16px;
+}
+
+/* 吹き出し等 */
+.MuiPaper-root{
+  background-color: rgba(0,0,0,0);
+}
+
+/* 吹き出し影 */
+.MuiPaper-elevation1{
+  box-shadow: none;
+}
+
+/* ダイス位置 */
+.cpRwfx{
+  bottom: 0;
+}
