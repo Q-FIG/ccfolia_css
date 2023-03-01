@@ -5,28 +5,18 @@ body {
   overflow: hidden;
 }
 
-/* ステータスイメージ */
-.sc-caXVBt,
-/* カットイン */
-.sc-gJwTLC,
 /* 背景 */
-.sc-TRNrF,
-/* 盤面 */
-.sc-lbOyJj,
+.sc-fctJkW,
+/* キャラ、パネルなど */
+.sc-gFGZVQ>:nth-child(-n+5),
 /* チャット */
-.sc-bBXxYQ>.MuiPaper-root,
+.MuiDrawer-root,
 /* 吹き出し */
-.sc-djUGQo,
+.sc-cjbZfG,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
 header>.MuiToolbar-gutters,
-/* 音量 */
-.sc-ikjQzJ,
-/* 拡大縮小 */
-.sc-hZgfyJ,
-/* 鉛筆ボタン */
-.sc-dSuTWQ,
 /* 監視モード */
 .MuiSnackbar-root,
 /* スクロールバー */
@@ -38,43 +28,39 @@ header>.MuiToolbar-gutters,
 　ステータス
 **************************/
 /* 上下の調整 */
-.sc-fHsOPI {
+.sc-jmnVvD>div>div {
   top: 0;
   padding: 1;
 }
 
 /* 全て非表示にする */
-.sc-hsOonA {
+.sc-jmnVvD>div {
   display: none;
 }
 
 /* サイズ調整 */
 .MuiTypography-body2 {
   font-size: 18px;
-}
-
-.sc-hsOonA>div>div>div,
-.sc-hsOonA>div>div>div>div:nth-child(2)>div {
-  height: 28px;
-}
-
-.sc-hsOonA>div>div>div {
-  width: 155px;
-}
-
-.MuiTypography-body2 {
   display: flex;
   align-items: center;
   padding: 10px;
 }
 
+.sc-jmnVvD>div>div>div>div>div,
+.sc-jmnVvD>div>div>div>div>div:nth-child(2)>div {
+  height: 28px;
+}
+
+.sc-jmnVvD>div>div>div>:nth-child(n) {
+  width: 155px;
+}
+
 /* 横並び（200の倍数） */
-.sc-fHsOPI {
+.sc-jmnVvD>div>div>div {
   max-width: 400px;
 }
 
 /* 特定のキャラだけ表示（1からスタート） */
-
-/* .sc-hsOonA:nth-child(1) {
+.sc-jmnVvD>:nth-child(1) {
   display: flex;
-} */
+}

@@ -12,7 +12,7 @@ li.voice-state:not([data-reactid*="DiscordユーザID"]) { display:none; }
 
 
 /* アイコンを立ち絵画像に差し替える */
-.avatar {
+img[class*="avatar"] {
   height: auto !important;
   width: 100% !important;
   border-radius:0 !important;
@@ -20,25 +20,25 @@ li.voice-state:not([data-reactid*="DiscordユーザID"]) { display:none; }
 }
 
 /* 発話状態の設定 */
-.speaking {
+img[class*="Speaking"] {
   border-color:rgba(0,0,0,0) !important;
   filter: brightness(100%) ;
 }
 
 
 /* ネームタグ表示位置調整 */
-li.voice-state{
+li[class*="State"] {
   position: static;
   text-align: center;
 }
-div.user{ 
+div[class*="user"] { 
   position: absolute;
   right: 0;
   left: 0;
   bottom: 10px;
   margin: auto;
 }
-.user .name {
+div[class*="user"] span[class*="name"] {
   font-size: 20px !important;
 }
 

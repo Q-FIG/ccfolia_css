@@ -11,19 +11,15 @@ body {
 /* ゲーム画面 */
 .sc-kgUAyh,
 /* chat.ヘッダ */
-.MuiAppBar-root,
+.MuiDrawer-root>div>header,
 /* chat.操作部分 */
-.sc-iTONeN,
+.MuiDrawer-root>div>div>:nth-child(2),
+/* キャラ、パネルなど */
+.sc-gFGZVQ>:nth-child(n),
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
 header>.MuiToolbar-gutters,
-/* 音量 */
-.sc-ikjQzJ,
-/* 拡大縮小 */
-.sc-hZgfyJ,
-/* 鉛筆ボタン */
-.sc-dSuTWQ,
 /* 監視モード */
 .MuiSnackbar-root,
 /* スクロールバー */
