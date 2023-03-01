@@ -5,32 +5,25 @@ body {
   overflow: hidden;
 }
 
-/* キャラ */
-.sc-jfmDQi,
+/* 背景 */
+.sc-fctJkW,
+/* 音量、鉛筆ボタン、拡大縮小、吹き出し、ステータス */
+.sc-gFGZVQ>:nth-child(n+3),
+/* キャラ以外 */
+.sc-gFGZVQ>div>div>div>div>div>div:not(.sc-TRNrF),
+/* キャラ名 */
+.sc-TRNrF>span,
 /* チャット */
-.sc-bBXxYQ>.MuiPaper-root,
+.MuiDrawer-root,
 /* 吹き出し */
-.sc-djUGQo,
+.sc-cjbZfG,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
 header>.MuiToolbar-gutters,
-/* 音量 */
-.sc-ikjQzJ,
-/* 拡大縮小 */
-.sc-hZgfyJ,
-/* 鉛筆ボタン */
-.sc-dSuTWQ,
 /* 監視モード */
 .MuiSnackbar-root,
 /* スクロールバー */
-::-webkit-scrollbar,
-/* キャラだけ見えるようにする */
-.hcTYPf, .sc-ZOtfp, .sc-eJwWfJ, .MuiTypography-root, .sc-gJwTLC {
+::-webkit-scrollbar {
   display: none !important;
-}
-
-/* キャラを見えるようにする */
-figure, .sc-hiwPVj{
-  display: flex !important;
 }

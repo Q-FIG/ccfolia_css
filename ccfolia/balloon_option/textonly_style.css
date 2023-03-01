@@ -1,6 +1,15 @@
+/* アイコンなし */
+.MuiPaper-root>img {
+  display: none;
+}
+
+.MuiPaper-root>img[src=""] {
+  display: none;
+}
+
 /* 吹き出し */
-.hqkidh{
-  max-width: 1920px;
+.MuiPaper-root{
+  width: calc(100%-32px);
   right: 16px;
   left: 16px;
 }
@@ -16,6 +25,6 @@
 }
 
 /* ダイス位置 */
-.cpRwfx{
+.MuiPaper-root>:nth-child(1) {
   bottom: 0;
 }

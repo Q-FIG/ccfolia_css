@@ -1,3 +1,5 @@
+/* 盤面 */
+
 /* OBS */
 body {
   background-color: rgba(0, 0, 0, 0);
@@ -5,24 +7,16 @@ body {
   overflow: hidden;
 }
 
-/* カットイン */
-.sc-gJwTLC,
-/* ステータス */
-.sc-hsOonA,
+/* 音量、鉛筆ボタン、拡大縮小、吹き出し、ステータス */
+.sc-gFGZVQ>:nth-child(n+3),
 /* チャット */
-.sc-bBXxYQ>.MuiPaper-root,
+.MuiDrawer-root,
 /* 吹き出し */
-.sc-djUGQo,
+.sc-cjbZfG,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
 header>.MuiToolbar-gutters,
-/* 音量 */
-.sc-ikjQzJ,
-/* 拡大縮小 */
-.sc-hZgfyJ,
-/* 鉛筆ボタン */
-.sc-dSuTWQ,
 /* 監視モード */
 .MuiSnackbar-root,
 /* スクロールバー */
@@ -30,9 +24,9 @@ header>.MuiToolbar-gutters,
   display: none !important;
 }
 
-/* 幅調整 */
-.sc-kgUAyh{
-  right: 0px !important;
+/* チャットスペース分調整 */
+#root>div>:nth-child(3){
+  width: 100%;
 }
 
 /* ポップアップ */

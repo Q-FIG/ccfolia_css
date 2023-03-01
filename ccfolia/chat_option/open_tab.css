@@ -1,3 +1,9 @@
-.MuiToolbar-root {
-  display: flex;
+/* 未完成！！ */
+/* タブ追加表示 */
+.MuiDrawer-root>div>div>:nth-child(2) {
+  display: flex !important;
+}
+
+.MuiDrawer-root>div>div>:nth-child(2)>form>div {
+  display: none !important;
 }
