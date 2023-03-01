@@ -61,6 +61,6 @@ header>.MuiToolbar-gutters,
 }
 
 /* 特定のキャラだけ表示（1からスタート） */
-.sc-jmnVvD>:nth-child(1) {
+/* .sc-jmnVvD:nth-child(1) {
   display: flex;
-}
+} */
