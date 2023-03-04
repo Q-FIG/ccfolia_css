@@ -8,9 +8,9 @@ body {
 }
 
 /* 背景 */
-.sc-fctJkW,
+#root>div>:nth-child(2),
 /* 音量、鉛筆ボタン、拡大縮小、吹き出し、ステータス */
-.sc-gFGZVQ>:not(.MuiPaper-root):nth-child(n),
+#root>div>:nth-child(3)>:not(.MuiPaper-root):nth-child(n),
 /* チャット */
 .MuiDrawer-root,
 /* モーダル削除 */

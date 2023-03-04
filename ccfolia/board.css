@@ -8,11 +8,11 @@ body {
 }
 
 /* 音量、鉛筆ボタン、拡大縮小、吹き出し、ステータス */
-.sc-gFGZVQ>:nth-child(n+3),
+#root>div>:nth-child(3)>:nth-child(n+3),
 /* チャット */
 .MuiDrawer-root,
 /* 吹き出し */
-.sc-cjbZfG,
+#root>div>:nth-child(3)>.MuiPaper-root,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */

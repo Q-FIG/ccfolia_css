@@ -1,5 +1,5 @@
 /* 背景 */
-.sc-fctJkW
+#root>div>:nth-child(2)
 {
   display: none !important;
 }

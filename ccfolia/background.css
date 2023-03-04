@@ -6,11 +6,11 @@ body {
 }
 
 /* キャラ、パネルなど */
-.sc-gFGZVQ>:nth-child(n),
+#root>div>:nth-child(3)>:nth-child(n),
 /* チャット */
 .MuiDrawer-root,
 /* 吹き出し */
-.sc-cjbZfG,
+#root>div>:nth-child(3)>.MuiPaper-root,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */

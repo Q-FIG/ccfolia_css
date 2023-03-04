@@ -6,17 +6,17 @@ body {
 }
 
 /* 背景 */
-.sc-fctJkW,
+#root>div>:nth-child(2),
 /* 音量、鉛筆ボタン、拡大縮小、吹き出し、ステータス */
-.sc-gFGZVQ>:nth-child(n+3),
+#root>div>:nth-child(3)>:nth-child(n+3),
 /* キャラ以外 */
-.sc-gFGZVQ>div>div>div>div>div>div:not(.sc-TRNrF),
+#root>div>:nth-child(3)>div>div>div>div>div>div:not(figure),
 /* キャラ名 */
-.sc-TRNrF>span,
+figure>span,
 /* チャット */
 .MuiDrawer-root,
 /* 吹き出し */
-.sc-cjbZfG,
+#root>div>:nth-child(3)>.MuiPaper-root,
 /* モーダル削除 */
 [role="presentation"],
 /* ヘッダー削除 */
