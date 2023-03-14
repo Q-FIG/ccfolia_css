@@ -26,6 +26,11 @@ header>.MuiToolbar-gutters,
   display: none !important;
 }
 
+/* チャットスペース分調整 */
+#root>div>:nth-child(3){
+  width: 100%;
+}
+
 /**************************
 　ステータス
 **************************/
