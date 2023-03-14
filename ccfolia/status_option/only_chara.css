@@ -1,0 +1,23 @@
+/* 上の空白削除 */
+.sc-hKpBwk {
+  top: 0;
+  max-height: 100%;
+}
+
+/* ステータス部分削除 */
+.sc-hKpBwk>div>div {
+  display: none;
+}
+
+/* 画像部分スタイル */
+.MuiBadge-root>div {
+  width: 600px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+/* イニシアチブ */
+.MuiBadge-root>span {
+  display: none;
+}
