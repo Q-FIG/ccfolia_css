@@ -1,0 +1,40 @@
+/* 盤面 */
+
+/* OBS */
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/* 音量、鉛筆ボタン、拡大縮小、吹き出し、ステータス */
+#root>div>:nth-child(3)>:not(.sc-cUEIKg),
+/* 背景 */
+#root>div>:nth-child(2),
+/* チャット */
+.MuiDrawer-root,
+/* 吹き出し */
+#root>div>:nth-child(3)>.MuiPaper-root,
+/* モーダル削除 */
+[role="presentation"],
+/* ヘッダー削除 */
+header>.MuiToolbar-gutters,
+/* 監視モード */
+.MuiSnackbar-root,
+/* スクロールバー */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* チャットスペース分調整 */
+#root>div>:nth-child(3){
+  width: 100%;
+}
+
+/* ポップアップ */
+[role="tooltip"] * {
+  font-size: 21px !important;
+  max-width: 1280px;
+  min-width: 720px;
+  margin: 24px auto;
+}
