@@ -1,11 +1,11 @@
 /* 上の空白削除 */
-.sc-ehMyHa {
+.sc-cUEIKg {
   top: 0;
   max-height: 100%;
 }
 
 /* ステータス部分削除 */
-.sc-ehMyHa>div>div {
+.sc-cUEIKg>div>div {
   display: none;
 }
 

@@ -10,7 +10,7 @@ body {
 /* キャラ、パネルなど */
 #root>div>:nth-child(3)>:nth-child(-n+5),
 /* カットイン */
-.sc-cUEIKg,
+.sc-ktCSKO,
 /* チャット */
 .MuiDrawer-root,
 /* 吹き出し */
@@ -35,13 +35,13 @@ header>.MuiToolbar-gutters,
 　ステータス
 **************************/
 /* 上下の調整 */
-.sc-ehMyHa>div>div {
+.sc-cUEIKg>div>div {
   top: 0;
   padding: 1;
 }
 
 /* 全て非表示にする */
-.sc-ehMyHa>div {
+.sc-cUEIKg>div {
   display: none;
 }
 
@@ -53,21 +53,21 @@ header>.MuiToolbar-gutters,
   padding: 10px;
 }
 
-.sc-ehMyHa>div>div>div>div>div,
-.sc-ehMyHa>div>div>div>div>div:nth-child(2)>div {
+.sc-cUEIKg>div>div>div>div>div,
+.sc-cUEIKg>div>div>div>div>div:nth-child(2)>div {
   height: 28px;
 }
 
-.sc-ehMyHa>div>div>div>:nth-child(n) {
+.sc-cUEIKg>div>div>div>:nth-child(n) {
   width: 155px;
 }
 
 /* 横並び（200の倍数） */
-.sc-ehMyHa>div>div>div {
+.sc-cUEIKg>div>div>div {
   max-width: 400px;
 }
 
 /* 特定のキャラだけ表示（1からスタート） */
-/* .sc-ehMyHa>:nth-child(1) {
+/* .sc-cUEIKg>:nth-child(1) {
   display: flex;
 } */
