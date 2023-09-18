@@ -8,7 +8,7 @@ body {
 }
 
 /* 音量、鉛筆ボタン、拡大縮小、吹き出し、ステータス */
-#root>div>:nth-child(3)>:not(.sc-ktCSKO),
+#root>div>:nth-child(3)>:not(.sc-gBztCq),
 /* 背景 */
 #root>div>:nth-child(2),
 /* チャット */
