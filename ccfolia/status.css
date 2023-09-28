@@ -10,7 +10,7 @@ body {
 /* キャラ、パネルなど */
 #root>div>:nth-child(3)>:nth-child(-n+5),
 /* カットイン */
-.sc-gBztCq,
+.sc-cQwIYT,
 /* チャット */
 .MuiDrawer-root,
 /* 吹き出し */
@@ -35,13 +35,13 @@ header>.MuiToolbar-gutters,
 　ステータス
 **************************/
 /* 上下の調整 */
-.sc-dZeWys>div>div {
+.sc-oclUV>div>div {
   top: 0;
   padding: 1;
 }
 
 /* 全て非表示にする */
-.sc-dZeWys>div {
+.sc-oclUV>div {
   display: none;
 }
 
@@ -53,17 +53,17 @@ header>.MuiToolbar-gutters,
   padding: 10px;
 }
 
-.sc-dZeWys>div>div>div>div>div,
-.sc-dZeWys>div>div>div>div>div:nth-child(2)>div {
+.sc-oclUV>div>div>div>div>div,
+.sc-oclUV>div>div>div>div>div:nth-child(2)>div {
   height: 28px;
 }
 
-.sc-dZeWys>div>div>div>:nth-child(n) {
+.sc-oclUV>div>div>div>:nth-child(n) {
   width: 155px;
 }
 
 /* 横並び（200の倍数） */
-.sc-dZeWys>div>div>div {
+div:has(> .MuiBadge-root) {
   max-width: 400px;
 }
 
@@ -71,3 +71,7 @@ header>.MuiToolbar-gutters,
 /* div:nth-child(1) {
   display: flex;
 } */
+
+/* キャラだけ表示のセレクタ */
+/* .MuiButtonBase-root+div+div>div:nth-child(1),
+.MuiPaper-rounded+div>div:nth-child(1) */

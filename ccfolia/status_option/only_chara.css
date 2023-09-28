@@ -1,11 +1,11 @@
 /* 上の空白削除 */
-.sc-dZeWys {
+.sc-oclUV {
   top: 0;
   max-height: 100%;
 }
 
 /* ステータス部分削除 */
-.sc-dZeWys>div>div {
+.sc-oclUV>div>div {
   display: none;
 }
 
