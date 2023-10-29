@@ -63,15 +63,12 @@ header>.MuiToolbar-gutters,
 }
 
 /* 横並び（200の倍数） */
-div:has(> .MuiBadge-root) {
+span.MuiBadge-root + div > div {
   max-width: 400px;
 }
 
-/* 特定のキャラだけ表示（1からスタート） */
-/* div:nth-child(1) {
+/* 特定のキャラだけ表示（1からスタート、全員表示はn） */
+/* .MuiButtonBase-root+div+div>div:nth-child(1),
+.MuiPaper-rounded+div>div:nth-child(1) {
   display: flex;
 } */
-
-/* キャラだけ表示のセレクタ */
-/* .MuiButtonBase-root+div+div>div:nth-child(1),
-.MuiPaper-rounded+div>div:nth-child(1) */
