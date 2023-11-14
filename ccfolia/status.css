@@ -9,8 +9,10 @@ body {
 #root>div>:nth-child(2),
 /* キャラ、パネルなど */
 #root>div>:nth-child(3)>:nth-child(-n+5),
+/* 新ダイス演出削除 */
+canvas,
 /* カットイン */
-.sc-cQwIYT,
+.sc-btlehR,
 /* チャット */
 .MuiDrawer-root,
 /* 吹き出し */
@@ -35,13 +37,18 @@ header>.MuiToolbar-gutters,
 　ステータス
 **************************/
 /* 上下の調整 */
-.sc-oclUV>div>div {
+#root>div>div>div>div>div {
   top: 0;
   padding: 1;
 }
 
-/* 全て非表示にする */
-.sc-oclUV>div {
+/* 吹き出し非表示 */
+#root>div>div>div>img,
+#root>div>div>div>img+div,
+/* 一覧のキャラ非表示 */
+#root>div>div>div>div,
+/* 影響しそうなカットイン非表示 */
+#root>div>div>div>div>img {
   display: none;
 }
 
@@ -53,22 +60,20 @@ header>.MuiToolbar-gutters,
   padding: 10px;
 }
 
-.sc-oclUV>div>div>div>div>div,
-.sc-oclUV>div>div>div>div>div:nth-child(2)>div {
+span.MuiBadge-root+div>div>div div {
   height: 28px;
 }
 
-.sc-oclUV>div>div>div>:nth-child(n) {
+span.MuiBadge-root+div>div>div {
   width: 155px;
 }
 
 /* 横並び（200の倍数） */
-span.MuiBadge-root + div > div {
+span.MuiBadge-root+div>div {
   max-width: 400px;
 }
 
 /* 特定のキャラだけ表示（1からスタート、全員表示はn） */
-/* .MuiButtonBase-root+div+div>div:nth-child(1),
-.MuiPaper-rounded+div>div:nth-child(1) {
+/* #root>div>div>div>div:nth-child(1) {
   display: flex;
 } */

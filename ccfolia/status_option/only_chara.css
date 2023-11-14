@@ -1,11 +1,11 @@
 /* 上の空白削除 */
-.sc-oclUV {
+#root>div>div:nth-child(2)>div:nth-child(6) {
   top: 0;
   max-height: 100%;
 }
 
 /* ステータス部分削除 */
-.sc-oclUV>div>div {
+#root>div>div:nth-child(2)>div:nth-child(6)>div>div {
   display: none;
 }
 
