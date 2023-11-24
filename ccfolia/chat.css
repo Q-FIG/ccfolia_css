@@ -15,7 +15,7 @@ body {
 /* chat.ヘッダ */
 .MuiDrawer-root>div>header,
 /* chat.操作部分 */
-.MuiDrawer-root>div>div>:nth-child(2),
+.MuiDrawer-root>div>div,
 /* キャラ、パネルなど */
 #root>div>:nth-child(3)>:nth-child(n),
 /* モーダル削除 */
