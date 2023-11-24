@@ -17,6 +17,10 @@
   background-color: rgba(44, 44, 44, 0.87) !important;
 }
 
+hr {
+  display: none;
+}
+
 @keyframes fadeRightToLeft {
   0% {
     opacity: 0;
