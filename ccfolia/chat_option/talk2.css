@@ -18,6 +18,10 @@ hr {
   --custom-bg-border-col: rgba(192, 192, 192, 0.8);
 }
 
+.MuiListItemAvatar-root {
+  margin-top: 0;
+}
+
 .MuiListItemAvatar-root>div {
   border-radius: 50%;
   border: 2px solid var(--custom-avatar-border-col);
@@ -38,7 +42,7 @@ hr {
 }
 
 .MuiListItemText-root {
-  margin-top: 17px;
+  margin-top: 9px;
   border: 1px solid var(--custom-bg-border-col);
   border-radius: 0 20px 20px;
   padding: 8px 16px;
