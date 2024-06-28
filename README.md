@@ -74,21 +74,21 @@
 | →左からフェードイン、フェードアウト | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/slide_left.css");` |
 | 角を丸くする | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/panel_cycle20.css");` |
 | 区切り線なし | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/panel.css");` |
-| 吹き出し1 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk.css");` |
-| 吹き出し1白 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk_white.css");` |
-| 吹き出し2 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk2.css");` |
-| 吹き出し2白 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk2_white.css");` |
+| トーク1 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk.css");` |
+| トーク1白 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk_white.css");` |
+| トーク2 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk2.css");` |
+| トーク2白 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk2_white.css");` |
 
 > [!TIP]
-> 吹き出し1,2の色は、変更することができる。
+> トーク1,2の色は、変更することができる。
 >
 > ##### 変更可能箇所
 > | css | キャラアイコン枠線 | 背景 | 枠線 | 文字色 | ダイス結果箇所の背景色 | 投稿時間の文字色 |
 > | --- | :---: | :---: | :---: | :---: | :---: | :---: |
-> | 吹き出し1 | ○ | ○ | × | × | × | ○ |
-> | 吹き出し1白 | ○ | ○ | × | ○ | ○ | ○ |
-> | 吹き出し2 | ○ | ○ | ○ | × | × | ○ |
-> | 吹き出し2白 | ○ | ○ | ○ | ○ | ○ | ○ |
+> | トーク1 | ○ | ○ | × | × | × | ○ |
+> | トーク1白 | ○ | ○ | × | ○ | ○ | ○ |
+> | トーク2 | ○ | ○ | ○ | × | × | ○ |
+> | トーク2白 | ○ | ○ | ○ | ○ | ○ | ○ |
 > 
 > ##### 変数名
 > | 変更箇所 | 変数名 |
@@ -108,6 +108,10 @@
 >   --custom-bg-col: rgba(44, 44, 44, 0.87);
 > }
 > ```
+>
+> #### トーク：順に4種のイメージ
+>
+> ![img](/images/chat_talks.png)
 
 ### 発言
 
