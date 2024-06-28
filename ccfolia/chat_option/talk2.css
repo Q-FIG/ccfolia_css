@@ -16,6 +16,7 @@ hr {
   --custom-avatar-border-col: white;
   --custom-bg-col: rgba(44, 44, 44, 0.87);
   --custom-bg-border-col: rgba(192, 192, 192, 0.8);
+  --custom-when-txt-col: rgb(200, 200, 200);
 }
 
 .MuiListItemAvatar-root {
@@ -38,7 +39,8 @@ hr {
 .MuiListItemText-root h6 span {
   font-size: x-small;
   padding-top: inherit;
-  mix-blend-mode: difference;
+  color: var(--custom-when-txt-col) !important;
+  mix-blend-mode: difference !important;
 }
 
 .MuiListItemText-root {

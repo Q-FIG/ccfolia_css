@@ -17,6 +17,7 @@ hr {
   --custom-bg-col: rgba(230, 230, 230, 0.8);
   --custom-txt-col: black;
   --custom-dice-bg-col: #434444ff;
+  --custom-when-txt-col: rgb(200, 200, 200);
 }
 
 .MuiListItemAvatar-root>div {
@@ -45,6 +46,7 @@ hr {
 .MuiListItemText-root h6 span {
   font-size: x-small;
   padding-top: inherit;
+  color: var(--custom-when-txt-col) !important;
   mix-blend-mode: difference;
 }
 
