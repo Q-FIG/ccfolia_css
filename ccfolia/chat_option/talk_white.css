@@ -14,7 +14,9 @@ hr {
 .MuiPaper-root {
   background: none;
   --custom-avatar-border-col: white;
-  --custom-bg-col: rgba(44, 44, 44, 0.87);
+  --custom-bg-col: rgba(230, 230, 230, 0.8);
+  --custom-txt-col: black;
+  --custom-dice-bg-col: #434444ff;
 }
 
 .MuiListItemAvatar-root>div {
@@ -44,4 +46,16 @@ hr {
   font-size: x-small;
   padding-top: inherit;
   mix-blend-mode: difference;
+}
+
+.MuiListItemText-root p {
+  color: var(--custom-txt-col);
+}
+
+.MuiListItemText-root p span {
+  border-radius: 0.4375rem;
+  margin-left: 3px;
+  padding: 0 0.6rem;
+  background: var(--custom-dice-bg-col);
+  display: inline-block;
 }

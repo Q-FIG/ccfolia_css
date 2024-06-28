@@ -74,6 +74,39 @@
 | →左からフェードイン、フェードアウト | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/slide_left.css");` |
 | 角を丸くする | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/panel_cycle20.css");` |
 | 区切り線なし | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/panel.css");` |
+| 吹き出し1 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk.css");` |
+| 吹き出し1白 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk_white.css");` |
+| 吹き出し2 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk2.css");` |
+| 吹き出し2白 | `@import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat_option/talk2_white.css");` |
+
+> [!TIP]
+> 吹き出し1,2の色は、変更することができる。
+>
+> ##### 変更可能箇所
+> | css | キャラアイコン枠線 | 背景 | 枠線 | 文字色 | ダイス結果箇所の背景色 |
+> | --- | :---: | :---: | :---: | :---: | :---: |
+> | 吹き出し1 | ○ | ○ | × | × | × |
+> | 吹き出し1白 | ○ | ○ | × | ○ | ○ |
+> | 吹き出し2 | ○ | ○ | ○ | × | × |
+> | 吹き出し2白 | ○ | ○ | ○ | ○ | ○ |
+> 
+> ##### 変数名
+> | 変更箇所 | 変数名 |
+> | --- | --- |
+> | キャラアイコン枠線 | --custom-avatar-border-col |
+> | 背景 | --custom-bg-col |
+> | 枠線 | --custom-bg-border-col |
+> | 文字色 | --custom-txt-col |
+> | ダイス結果箇所の背景色 | --custom-dice-bg-col |
+>
+> ##### 例
+> ```css
+> /* 色変更 */
+> .MuiPaper-root {
+>   --custom-avatar-border-col: white;
+>   --custom-bg-col: rgba(44, 44, 44, 0.87);
+> }
+> ```
 
 ### 発言
 
@@ -151,8 +184,7 @@ span.MuiBadge-root+div>div {
 
 > [!TIP]
 > 記載以外をやりたい場合、nth-childについて調べること。<br>
-> 以下、参考のサイト<br>
-> https://web-camp.io/magazine/archives/99177
+> 参考のサイト：https://web-camp.io/magazine/archives/99177
 
 #### ステータスの色変更
 

@@ -1,0 +1,61 @@
+/**
+ * トーク風デザイン
+ * 
+ * 【注意事項】
+ * chat.cssと一緒に使用すること
+ */
+
+/* @import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat.css"); */
+
+hr {
+  display: none;
+}
+
+.MuiPaper-root {
+  background: none;
+  --custom-avatar-border-col: white;
+  --custom-bg-col: rgba(230, 230, 230, 0.8);
+  --custom-bg-border-col: rgba(124, 124, 124, 0.8);
+  --custom-txt-col: black;
+  --custom-dice-bg-col: #434444ff;
+}
+
+.MuiListItemAvatar-root>div {
+  border-radius: 50%;
+  border: 2px solid var(--custom-avatar-border-col);
+}
+
+.MuiListItem-root {
+  padding: 0 16px;
+}
+
+.MuiListItemText-root h6 {
+  font-size: small;
+}
+
+.MuiListItemText-root h6 span {
+  font-size: x-small;
+  padding-top: inherit;
+  mix-blend-mode: difference;
+}
+
+.MuiListItemText-root {
+  margin-top: 17px;
+  border: 1px solid var(--custom-bg-border-col);
+  border-radius: 0 20px 20px;
+  padding: 8px 16px;
+  background: var(--custom-bg-col);
+  position: relative;
+}
+
+.MuiListItemText-root p {
+  color: var(--custom-txt-col);
+}
+
+.MuiListItemText-root p span {
+  border-radius: 0.4375rem;
+  margin-left: 3px;
+  padding: 0 0.6rem;
+  background: var(--custom-dice-bg-col);
+  display: inline-block;
+}

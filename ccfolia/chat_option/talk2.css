@@ -15,6 +15,7 @@ hr {
   background: none;
   --custom-avatar-border-col: white;
   --custom-bg-col: rgba(44, 44, 44, 0.87);
+  --custom-bg-border-col: rgba(192, 192, 192, 0.8);
 }
 
 .MuiListItemAvatar-root>div {
@@ -22,26 +23,25 @@ hr {
   border: 2px solid var(--custom-avatar-border-col);
 }
 
-.MuiListItemText-root {
-  margin: 0;
-  border-radius: 10px;
-  padding: 8px 16px;
-  background: var(--custom-bg-col);
-  position: relative;
+.MuiListItem-root {
+  padding: 0 16px;
 }
 
-.MuiListItemText-root::after {
-  content: "";
-  display: flex;
-  position: absolute;
-  top: 16px;
-  left: -24px;
-  border: 12px solid transparent;
-  border-right: 12px solid var(--custom-bg-col);
+.MuiListItemText-root h6 {
+  font-size: small;
 }
 
 .MuiListItemText-root h6 span {
   font-size: x-small;
   padding-top: inherit;
   mix-blend-mode: difference;
+}
+
+.MuiListItemText-root {
+  margin-top: 17px;
+  border: 1px solid var(--custom-bg-border-col);
+  border-radius: 0 20px 20px;
+  padding: 8px 16px;
+  background: var(--custom-bg-col);
+  position: relative;
 }
