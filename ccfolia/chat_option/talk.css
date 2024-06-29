@@ -8,7 +8,7 @@
 /* @import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat.css"); */
 
 hr {
-  display: none;
+  border-color: rgba(0, 0, 0, 0) !important;
 }
 
 .MuiPaper-root {
@@ -18,7 +18,7 @@ hr {
   --custom-when-txt-col: rgb(200, 200, 200);
 }
 
-.MuiListItemAvatar-root>div {
+.MuiListItemAvatar-root>div[class] {
   border-radius: 50%;
   border: 2px solid var(--custom-avatar-border-col);
 }
@@ -46,4 +46,8 @@ hr {
   padding-top: inherit;
   color: var(--custom-when-txt-col) !important;
   mix-blend-mode: difference;
+}
+
+.MuiList-root>div>div>div {
+  width: fit-content;
 }

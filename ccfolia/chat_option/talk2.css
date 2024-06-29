@@ -8,7 +8,7 @@
 /* @import url("https://q-fig.github.io/ccfolia_css/ccfolia/chat.css"); */
 
 hr {
-  display: none;
+  border-color: rgba(0, 0, 0, 0) !important;
 }
 
 .MuiPaper-root {
@@ -19,21 +19,19 @@ hr {
   --custom-when-txt-col: rgb(200, 200, 200);
 }
 
-.MuiListItemAvatar-root {
+.MuiListItemAvatar-root[class] {
   margin-top: 0;
 }
 
 .MuiListItemAvatar-root>div {
   border-radius: 50%;
   border: 2px solid var(--custom-avatar-border-col);
+  position: absolute;
+  top: -4px;
 }
 
 .MuiListItem-root {
   padding: 0 16px;
-}
-
-.MuiListItemText-root h6 {
-  font-size: small;
 }
 
 .MuiListItemText-root h6 span {
@@ -50,4 +48,8 @@ hr {
   padding: 8px 16px;
   background: var(--custom-bg-col);
   position: relative;
+}
+
+.MuiList-root>div>div>div {
+  width: fit-content;
 }
