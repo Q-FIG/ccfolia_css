@@ -13,7 +13,7 @@ hr {
 
 .MuiPaper-root {
   background: none;
-  --custom-avatar-border-col: white;
+  --custom-avatar-border-col: rgba(192, 192, 192, 0.8);
   --custom-bg-col: rgba(44, 44, 44, 0.87);
   --custom-bg-border-col: rgba(192, 192, 192, 0.8);
   --custom-when-txt-col: rgb(200, 200, 200);
@@ -23,9 +23,9 @@ hr {
   margin-top: 0;
 }
 
-.MuiListItemAvatar-root>div {
+.MuiListItemAvatar-root>div:not(:empty) {
   border-radius: 50%;
-  border: 2px solid var(--custom-avatar-border-col);
+  border: 1.5px solid var(--custom-avatar-border-col);
   position: absolute;
   top: -4px;
 }
