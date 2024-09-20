@@ -9,8 +9,10 @@ body {
 #root>div>:nth-child(2),
 /* 音量、鉛筆ボタン、拡大縮小、吹き出し、ステータス */
 #root>div>:nth-child(3)>:nth-child(n+3),
-/* キャラ以外 */
-#root>div>:nth-child(3)>div>div>div>div>div>div:not(figure),
+/* スクリーンパネル、マーカーパネル、キャラ以外 */
+#root>div>:nth-child(3)>div>div>div>div>div>div>div>div>div>div:not(figure),
+/* 前景 */
+#root>div>:nth-child(3)>div>div>div>div>div>div>div>img,
 /* キャラ名 */
 figure>span,
 /* チャット */
