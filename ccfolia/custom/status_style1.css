@@ -58,6 +58,11 @@ header>.MuiToolbar-gutters,
 
 /* ---------------------------- */
 
+#root>div>div>div {
+  top: 0;
+  max-height: 100%;
+}
+
 #root>div>div>div>div>span {
   display: none;
 }
