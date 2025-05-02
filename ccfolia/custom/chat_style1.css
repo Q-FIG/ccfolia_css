@@ -1,0 +1,107 @@
+/* OBS */
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/* 背景 */
+#root>div>:nth-child(2),
+/* キャラ、パネルなど */
+#root>div>:nth-child(3)>:nth-child(-n+5),
+/* 新ダイス演出削除 */
+canvas,
+/* カットイン */
+.sc-btlehR,
+/* チャット */
+.MuiDrawer-root,
+/* 吹き出し */
+#root>div>:nth-child(3)>.MuiPaper-root,
+/* モーダル削除 */
+[role="presentation"],
+/* ヘッダー削除 */
+header>.MuiToolbar-gutters,
+/* 監視モード */
+.MuiSnackbar-root,
+/* スクロールバー */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* チャットスペース分調整 */
+#root>div>:nth-child(3){
+  width: 100%;
+}
+
+/**************************
+　ステータス
+**************************/
+/* 上下の調整 */
+#root>div>div>div>div>div {
+  top: 0;
+  padding: 1;
+}
+
+/* 吹き出し非表示 */
+#root>div>div>div>img,
+#root>div>div>div>img+div,
+/* 一覧のキャラ非表示 */
+#root>div>div>div>div,
+/* 影響しそうなカットイン非表示 */
+#root>div>div>div>div>img {
+  display: none;
+}
+
+/* ---------------------------- */
+
+#root>div>div>div>div>span {
+  display: none;
+}
+
+#root>div>div>div>div>div {
+  display: flex;
+}
+
+#root>div>div>div>div>div>div {
+  max-width: none;
+}
+
+#root>div>div>div>div>div>div>div {
+  height: 40px;
+  width: 45px;
+  transform: skewX(-20deg);
+}
+
+#root>div>div>div>div>div>div>div>div {
+  display: block !important;
+  text-align: center;
+}
+
+#root>div>div>div>div>div>div>div>div>p:nth-child(1) {
+  color: white;
+  font-size: xx-small;
+}
+
+#root>div>div>div>div>div>div>div>div>p {
+  max-width: none;
+  text-shadow: none;
+  color: transparent;
+  line-height: normal;
+  font-size: x-large;
+}
+
+#root>div>div>div>div>div>div>div>div>p>span {
+  color: white;
+  display: block;
+}
+
+#root>div>div>div>div>div>div>div>div>div:nth-child(1) {
+  opacity: 1;
+  height: 40px;
+  background: black;
+  border-radius: unset;
+}
+
+#root>div>div>div>div>div>div>div>div>div:nth-child(2) {
+  display: none;
+}
