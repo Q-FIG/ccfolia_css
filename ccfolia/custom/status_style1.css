@@ -61,6 +61,7 @@ header>.MuiToolbar-gutters,
 #root>div>div>div {
   top: 0;
   max-height: 100%;
+  padding-left: 16px;
 }
 
 #root>div>div>div>div>span {
@@ -76,8 +77,8 @@ header>.MuiToolbar-gutters,
 }
 
 #root>div>div>div>div>div>div>div {
-  height: 50px;
-  width: 45px;
+  height: 90px;
+  width: 75px;
   transform: skewX(-20deg);
 }
 
@@ -87,8 +88,9 @@ header>.MuiToolbar-gutters,
 }
 
 #root>div>div>div>div>div>div>div>div>p:nth-child(1) {
+  margin-top: 2px;
   color: white;
-  font-size: xx-small;
+  font-size: small;
 }
 
 #root>div>div>div>div>div>div>div>div>p {
@@ -96,7 +98,7 @@ header>.MuiToolbar-gutters,
   text-shadow: none;
   color: transparent;
   line-height: normal;
-  font-size: x-large;
+  font-size: xxx-large;
   font-family: serif;
 }
 
@@ -107,7 +109,7 @@ header>.MuiToolbar-gutters,
 
 #root>div>div>div>div>div>div>div>div>div:nth-child(1) {
   opacity: 1;
-  height: 50px;
+  height: 90px;
   background: black;
   border-radius: unset;
 }
