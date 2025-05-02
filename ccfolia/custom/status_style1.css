@@ -45,12 +45,16 @@ header>.MuiToolbar-gutters,
 /* 吹き出し非表示 */
 #root>div>div>div>img,
 #root>div>div>div>img+div,
-/* 一覧のキャラ非表示 */
-#root>div>div>div>div,
 /* 影響しそうなカットイン非表示 */
 #root>div>div>div>div>img {
   display: none;
 }
+
+/* 一覧のキャラ非表示 */
+/* サンプル */
+/* #root>div>div>div>div:not(:nth-child(1)) {
+  display: none;
+} */
 
 /* ---------------------------- */
 
