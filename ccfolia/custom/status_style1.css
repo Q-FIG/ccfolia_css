@@ -58,42 +58,42 @@ header>.MuiToolbar-gutters,
 
 /* ---------------------------- */
 
-#root>div>div>div {
+#root>div>div>div:not(span+div) {
   top: 0;
   max-height: 100%;
   padding-left: 16px;
 }
 
-#root>div>div>div>div>span {
+span.MuiBadge-root {
   display: none;
 }
 
-#root>div>div>div>div>div {
+span.MuiBadge-root+div {
   display: flex;
 }
 
-#root>div>div>div>div>div>div {
+span.MuiBadge-root+div>div {
   max-width: none;
 }
 
-#root>div>div>div>div>div>div>div {
+span.MuiBadge-root+div>div>div {
   height: 90px;
   width: 75px;
   transform: skewX(-20deg);
 }
 
-#root>div>div>div>div>div>div>div>div {
+span.MuiBadge-root+div>div>div>div {
   display: block !important;
   text-align: center;
 }
 
-#root>div>div>div>div>div>div>div>div>p:nth-child(1) {
+span.MuiBadge-root+div>div>div>div>p:nth-child(1) {
   margin-top: 2px;
   color: white;
   font-size: small;
 }
 
-#root>div>div>div>div>div>div>div>div>p {
+span.MuiBadge-root+div>div>div>div>p {
   max-width: none;
   text-shadow: none;
   color: transparent;
@@ -102,18 +102,18 @@ header>.MuiToolbar-gutters,
   font-family: serif;
 }
 
-#root>div>div>div>div>div>div>div>div>p>span {
+span.MuiBadge-root+div>div>div>div>p>span {
   color: white;
   display: block;
 }
 
-#root>div>div>div>div>div>div>div>div>div:nth-child(1) {
+span.MuiBadge-root+div>div>div>div>div:nth-child(1) {
   opacity: 1;
   height: 90px;
   background: black;
   border-radius: unset;
 }
 
-#root>div>div>div>div>div>div>div>div>div:nth-child(2) {
+span.MuiBadge-root+div>div>div>div>div:nth-child(2) {
   display: none;
 }
