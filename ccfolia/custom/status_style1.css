@@ -58,7 +58,7 @@ header>.MuiToolbar-gutters,
 
 /* ---------------------------- */
 
-#root>div>div>div:not(span+div) {
+#root>div>div>div {
   top: 0;
   max-height: 100%;
   padding-left: 16px;
