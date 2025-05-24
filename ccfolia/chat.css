@@ -15,7 +15,7 @@ body {
 /* chat.ヘッダ */
 .MuiDrawer-root>div>header,
 /* chat.操作部分 */
-.MuiDrawer-root>div>div,
+.MuiDrawer-root>div>div>form>:not(header),
 /* キャラ、パネルなど */
 #root>div>:nth-child(3)>:nth-child(n),
 /* モーダル削除 */
@@ -27,6 +27,23 @@ header>.MuiToolbar-gutters,
 /* スクロールバー */
 ::-webkit-scrollbar {
   display: none !important;
+}
+
+/* chat.操作部分 */
+.MuiDrawer-root>div>div {
+  position: absolute;
+  width: 100%;
+  box-shadow: none;
+}
+.MuiDrawer-root>div>div>form>header {
+  opacity: 0;
+}
+.MuiDrawer-root>div>div>form>header:hover {
+  opacity: 100;
+}
+.MuiDrawer-root>div>div,
+.MuiDrawer-root>div>div>form {
+  background: transparent;
 }
 
 /* ゲーム盤面幅調整 */
